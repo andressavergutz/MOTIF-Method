@@ -1,0 +1,802 @@
+
+------------XXXXXXXXXXXXXXXXXXXX Handout - Flow XXXXXXXXXXXXXXXXXXXX---------------
+
+------------XXXXXXXXXXXXXXXXXXXX Run 1 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.383768, f1: 0.289692, recall: 0.362879, precision: 0.347779, tempo: 0.440995
+
+CART: accuracy: 0.934358, f1: 0.884613, recall: 0.864093, precision: 0.925109, tempo: 0.697586
+
+R.Forest: accuracy: 0.935659, f1: 0.846182, recall: 0.810307, precision: 0.916189, tempo: 4.084417
+
+Bagging: accuracy: 0.935613, f1: 0.887780, recall: 0.873835, precision: 0.916051, tempo: 5.511438
+
+KNN: accuracy: 0.903373, f1: 0.738948, recall: 0.716034, precision: 0.776205, tempo: 3.030777
+
+SVM: accuracy: 0.923534, f1: 0.833415, recall: 0.782698, precision: 0.934960, tempo: 38.469945
+
+AdaBoost: accuracy: 0.489966, f1: 0.405300, recall: 0.425178, precision: 0.460877, tempo: 4.734186
+
+------------XXXXXXXXXXXXXXXXXXXX Run 2 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.383768, f1: 0.289692, recall: 0.362879, precision: 0.347779, tempo: 0.527990
+
+CART: accuracy: 0.934358, f1: 0.884613, recall: 0.864093, precision: 0.925109, tempo: 0.641511
+
+R.Forest: accuracy: 0.935659, f1: 0.846182, recall: 0.810307, precision: 0.916189, tempo: 3.490923
+
+Bagging: accuracy: 0.935613, f1: 0.887780, recall: 0.873835, precision: 0.916051, tempo: 4.704189
+
+KNN: accuracy: 0.903373, f1: 0.738948, recall: 0.716034, precision: 0.776205, tempo: 2.892481
+
+SVM: accuracy: 0.923534, f1: 0.833415, recall: 0.782698, precision: 0.934960, tempo: 37.511003
+
+AdaBoost: accuracy: 0.489966, f1: 0.405300, recall: 0.425178, precision: 0.460877, tempo: 4.230107
+
+------------XXXXXXXXXXXXXXXXXXXX Run 3 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.383768, f1: 0.289692, recall: 0.362879, precision: 0.347779, tempo: 0.418726
+
+CART: accuracy: 0.934358, f1: 0.884613, recall: 0.864093, precision: 0.925109, tempo: 0.505993
+
+R.Forest: accuracy: 0.935659, f1: 0.846182, recall: 0.810307, precision: 0.916189, tempo: 3.386797
+
+Bagging: accuracy: 0.935613, f1: 0.887780, recall: 0.873835, precision: 0.916051, tempo: 4.661783
+
+KNN: accuracy: 0.903373, f1: 0.738948, recall: 0.716034, precision: 0.776205, tempo: 2.843469
+
+SVM: accuracy: 0.923534, f1: 0.833415, recall: 0.782698, precision: 0.934960, tempo: 35.268298
+
+AdaBoost: accuracy: 0.489966, f1: 0.405300, recall: 0.425178, precision: 0.460877, tempo: 4.763856
+
+------------XXXXXXXXXXXXXXXXXXXX Run 4 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.383768, f1: 0.289692, recall: 0.362879, precision: 0.347779, tempo: 0.390854
+
+CART: accuracy: 0.934358, f1: 0.884613, recall: 0.864093, precision: 0.925109, tempo: 0.507530
+
+R.Forest: accuracy: 0.935659, f1: 0.846182, recall: 0.810307, precision: 0.916189, tempo: 3.330980
+
+Bagging: accuracy: 0.935613, f1: 0.887780, recall: 0.873835, precision: 0.916051, tempo: 4.581506
+
+KNN: accuracy: 0.903373, f1: 0.738948, recall: 0.716034, precision: 0.776205, tempo: 3.027855
+
+SVM: accuracy: 0.923534, f1: 0.833415, recall: 0.782698, precision: 0.934960, tempo: 36.029453
+
+AdaBoost: accuracy: 0.489966, f1: 0.405300, recall: 0.425178, precision: 0.460877, tempo: 4.372875
+
+------------XXXXXXXXXXXXXXXXXXXX Run 5 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.383768, f1: 0.289692, recall: 0.362879, precision: 0.347779, tempo: 0.322538
+
+CART: accuracy: 0.934358, f1: 0.884613, recall: 0.864093, precision: 0.925109, tempo: 0.448850
+
+R.Forest: accuracy: 0.935659, f1: 0.846182, recall: 0.810307, precision: 0.916189, tempo: 4.004174
+
+Bagging: accuracy: 0.935613, f1: 0.887780, recall: 0.873835, precision: 0.916051, tempo: 5.515238
+
+KNN: accuracy: 0.903373, f1: 0.738948, recall: 0.716034, precision: 0.776205, tempo: 3.557114
+
+SVM: accuracy: 0.923534, f1: 0.833415, recall: 0.782698, precision: 0.934960, tempo: 38.834304
+
+AdaBoost: accuracy: 0.489966, f1: 0.405300, recall: 0.425178, precision: 0.460877, tempo: 4.625566
+
+------------XXXXXXXXXXXXXXXXXXXX Run 6 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.383768, f1: 0.289692, recall: 0.362879, precision: 0.347779, tempo: 0.432590
+
+CART: accuracy: 0.934358, f1: 0.884613, recall: 0.864093, precision: 0.925109, tempo: 0.604847
+
+R.Forest: accuracy: 0.935659, f1: 0.846182, recall: 0.810307, precision: 0.916189, tempo: 4.141449
+
+Bagging: accuracy: 0.935613, f1: 0.887780, recall: 0.873835, precision: 0.916051, tempo: 6.053767
+
+KNN: accuracy: 0.903373, f1: 0.738948, recall: 0.716034, precision: 0.776205, tempo: 3.768277
+
+SVM: accuracy: 0.923534, f1: 0.833415, recall: 0.782698, precision: 0.934960, tempo: 39.562359
+
+AdaBoost: accuracy: 0.489966, f1: 0.405300, recall: 0.425178, precision: 0.460877, tempo: 4.449921
+
+------------XXXXXXXXXXXXXXXXXXXX Run 7 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.383768, f1: 0.289692, recall: 0.362879, precision: 0.347779, tempo: 0.438659
+
+CART: accuracy: 0.934358, f1: 0.884613, recall: 0.864093, precision: 0.925109, tempo: 0.593984
+
+R.Forest: accuracy: 0.935659, f1: 0.846182, recall: 0.810307, precision: 0.916189, tempo: 4.130167
+
+Bagging: accuracy: 0.935613, f1: 0.887780, recall: 0.873835, precision: 0.916051, tempo: 5.791558
+
+KNN: accuracy: 0.903373, f1: 0.738948, recall: 0.716034, precision: 0.776205, tempo: 3.900015
+
+SVM: accuracy: 0.923534, f1: 0.833415, recall: 0.782698, precision: 0.934960, tempo: 34.222250
+
+AdaBoost: accuracy: 0.489966, f1: 0.405300, recall: 0.425178, precision: 0.460877, tempo: 4.925361
+
+------------XXXXXXXXXXXXXXXXXXXX Run 8 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.383768, f1: 0.289692, recall: 0.362879, precision: 0.347779, tempo: 0.487122
+
+CART: accuracy: 0.934358, f1: 0.884613, recall: 0.864093, precision: 0.925109, tempo: 0.554696
+
+R.Forest: accuracy: 0.935659, f1: 0.846182, recall: 0.810307, precision: 0.916189, tempo: 3.770757
+
+Bagging: accuracy: 0.935613, f1: 0.887780, recall: 0.873835, precision: 0.916051, tempo: 5.041390
+
+KNN: accuracy: 0.903373, f1: 0.738948, recall: 0.716034, precision: 0.776205, tempo: 3.135421
+
+SVM: accuracy: 0.923534, f1: 0.833415, recall: 0.782698, precision: 0.934960, tempo: 38.535574
+
+AdaBoost: accuracy: 0.489966, f1: 0.405300, recall: 0.425178, precision: 0.460877, tempo: 4.629428
+
+------------XXXXXXXXXXXXXXXXXXXX Run 9 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.391434, f1: 0.289933, recall: 0.364694, precision: 0.344950, tempo: 0.359340
+
+CART: accuracy: 0.935334, f1: 0.851714, recall: 0.817760, precision: 0.918575, tempo: 0.538071
+
+R.Forest: accuracy: 0.938121, f1: 0.855256, recall: 0.816465, precision: 0.929571, tempo: 3.564634
+
+Bagging: accuracy: 0.936867, f1: 0.853687, recall: 0.817115, precision: 0.924126, tempo: 5.297439
+
+KNN: accuracy: 0.918749, f1: 0.791537, recall: 0.792226, precision: 0.817042, tempo: 3.356567
+
+SVM: accuracy: 0.926926, f1: 0.828574, recall: 0.775892, precision: 0.942030, tempo: 34.770697
+
+AdaBoost: accuracy: 0.442813, f1: 0.267742, recall: 0.278724, precision: 0.281759, tempo: 4.428486
+
+------------XXXXXXXXXXXXXXXXXXXX Run 10 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.391434, f1: 0.289933, recall: 0.364694, precision: 0.344950, tempo: 0.359528
+
+CART: accuracy: 0.935334, f1: 0.851714, recall: 0.817760, precision: 0.918575, tempo: 0.512743
+
+R.Forest: accuracy: 0.938121, f1: 0.855256, recall: 0.816465, precision: 0.929571, tempo: 4.076643
+
+Bagging: accuracy: 0.936867, f1: 0.853687, recall: 0.817115, precision: 0.924126, tempo: 5.489288
+
+KNN: accuracy: 0.918749, f1: 0.791537, recall: 0.792226, precision: 0.817042, tempo: 2.968636
+
+SVM: accuracy: 0.926926, f1: 0.828574, recall: 0.775892, precision: 0.942030, tempo: 37.509208
+
+AdaBoost: accuracy: 0.442813, f1: 0.267742, recall: 0.278724, precision: 0.281759, tempo: 4.471809
+
+------------XXXXXXXXXXXXXXXXXXXX Run 11 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.391434, f1: 0.289933, recall: 0.364694, precision: 0.344950, tempo: 0.370360
+
+CART: accuracy: 0.935334, f1: 0.851714, recall: 0.817760, precision: 0.918575, tempo: 0.452405
+
+R.Forest: accuracy: 0.938121, f1: 0.855256, recall: 0.816465, precision: 0.929571, tempo: 3.707186
+
+Bagging: accuracy: 0.936867, f1: 0.853687, recall: 0.817115, precision: 0.924126, tempo: 4.979803
+
+KNN: accuracy: 0.918749, f1: 0.791537, recall: 0.792226, precision: 0.817042, tempo: 3.214227
+
+SVM: accuracy: 0.926926, f1: 0.828574, recall: 0.775892, precision: 0.942030, tempo: 36.550331
+
+AdaBoost: accuracy: 0.442813, f1: 0.267742, recall: 0.278724, precision: 0.281759, tempo: 4.478061
+
+------------XXXXXXXXXXXXXXXXXXXX Run 12 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.391434, f1: 0.289933, recall: 0.364694, precision: 0.344950, tempo: 0.356707
+
+CART: accuracy: 0.935334, f1: 0.851714, recall: 0.817760, precision: 0.918575, tempo: 0.512456
+
+R.Forest: accuracy: 0.938121, f1: 0.855256, recall: 0.816465, precision: 0.929571, tempo: 3.859622
+
+Bagging: accuracy: 0.936867, f1: 0.853687, recall: 0.817115, precision: 0.924126, tempo: 5.516406
+
+KNN: accuracy: 0.918749, f1: 0.791537, recall: 0.792226, precision: 0.817042, tempo: 3.300451
+
+SVM: accuracy: 0.926926, f1: 0.828574, recall: 0.775892, precision: 0.942030, tempo: 38.281027
+
+AdaBoost: accuracy: 0.442813, f1: 0.267742, recall: 0.278724, precision: 0.281759, tempo: 4.843611
+
+------------XXXXXXXXXXXXXXXXXXXX Run 13 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.391434, f1: 0.289933, recall: 0.364694, precision: 0.344950, tempo: 0.486031
+
+CART: accuracy: 0.935334, f1: 0.851714, recall: 0.817760, precision: 0.918575, tempo: 0.662214
+
+R.Forest: accuracy: 0.938121, f1: 0.855256, recall: 0.816465, precision: 0.929571, tempo: 4.128419
+
+Bagging: accuracy: 0.936867, f1: 0.853687, recall: 0.817115, precision: 0.924126, tempo: 5.377222
+
+KNN: accuracy: 0.918749, f1: 0.791537, recall: 0.792226, precision: 0.817042, tempo: 3.259103
+
+SVM: accuracy: 0.926926, f1: 0.828574, recall: 0.775892, precision: 0.942030, tempo: 37.915682
+
+AdaBoost: accuracy: 0.442813, f1: 0.267742, recall: 0.278724, precision: 0.281759, tempo: 4.488558
+
+------------XXXXXXXXXXXXXXXXXXXX Run 14 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.391434, f1: 0.289933, recall: 0.364694, precision: 0.344950, tempo: 0.523879
+
+CART: accuracy: 0.935334, f1: 0.851714, recall: 0.817760, precision: 0.918575, tempo: 0.548554
+
+R.Forest: accuracy: 0.938121, f1: 0.855256, recall: 0.816465, precision: 0.929571, tempo: 3.751802
+
+Bagging: accuracy: 0.936867, f1: 0.853687, recall: 0.817115, precision: 0.924126, tempo: 5.312261
+
+KNN: accuracy: 0.918749, f1: 0.791537, recall: 0.792226, precision: 0.817042, tempo: 3.466225
+
+SVM: accuracy: 0.926926, f1: 0.828574, recall: 0.775892, precision: 0.942030, tempo: 37.748755
+
+AdaBoost: accuracy: 0.442813, f1: 0.267742, recall: 0.278724, precision: 0.281759, tempo: 4.261118
+
+------------XXXXXXXXXXXXXXXXXXXX Run 15 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.391434, f1: 0.289933, recall: 0.364694, precision: 0.344950, tempo: 0.323796
+
+CART: accuracy: 0.935334, f1: 0.851714, recall: 0.817760, precision: 0.918575, tempo: 0.453726
+
+R.Forest: accuracy: 0.938121, f1: 0.855256, recall: 0.816465, precision: 0.929571, tempo: 3.270953
+
+Bagging: accuracy: 0.936867, f1: 0.853687, recall: 0.817115, precision: 0.924126, tempo: 4.952432
+
+KNN: accuracy: 0.918749, f1: 0.791537, recall: 0.792226, precision: 0.817042, tempo: 3.316147
+
+SVM: accuracy: 0.926926, f1: 0.828574, recall: 0.775892, precision: 0.942030, tempo: 37.369466
+
+AdaBoost: accuracy: 0.442813, f1: 0.267742, recall: 0.278724, precision: 0.281759, tempo: 4.362684
+
+------------XXXXXXXXXXXXXXXXXXXX Run 16 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.391434, f1: 0.289933, recall: 0.364694, precision: 0.344950, tempo: 0.387019
+
+CART: accuracy: 0.935334, f1: 0.851714, recall: 0.817760, precision: 0.918575, tempo: 0.561551
+
+R.Forest: accuracy: 0.938121, f1: 0.855256, recall: 0.816465, precision: 0.929571, tempo: 4.021733
+
+Bagging: accuracy: 0.936867, f1: 0.853687, recall: 0.817115, precision: 0.924126, tempo: 4.977667
+
+KNN: accuracy: 0.918749, f1: 0.791537, recall: 0.792226, precision: 0.817042, tempo: 3.455072
+
+SVM: accuracy: 0.926926, f1: 0.828574, recall: 0.775892, precision: 0.942030, tempo: 36.981764
+
+AdaBoost: accuracy: 0.442813, f1: 0.267742, recall: 0.278724, precision: 0.281759, tempo: 4.465877
+
+------------XXXXXXXXXXXXXXXXXXXX Run 17 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.382096, f1: 0.215806, recall: 0.307193, precision: 0.239369, tempo: 0.349686
+
+CART: accuracy: 0.936681, f1: 0.772956, recall: 0.758067, precision: 0.801714, tempo: 0.498241
+
+R.Forest: accuracy: 0.937936, f1: 0.775198, recall: 0.756387, precision: 0.810285, tempo: 3.894489
+
+Bagging: accuracy: 0.936728, f1: 0.775540, recall: 0.756020, precision: 0.812126, tempo: 5.399895
+
+KNN: accuracy: 0.918517, f1: 0.751421, recall: 0.734160, precision: 0.786115, tempo: 2.955325
+
+SVM: accuracy: 0.926786, f1: 0.760977, recall: 0.727090, precision: 0.834065, tempo: 37.160758
+
+AdaBoost: accuracy: 0.525829, f1: 0.279535, recall: 0.308877, precision: 0.352984, tempo: 4.344417
+
+------------XXXXXXXXXXXXXXXXXXXX Run 18 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.382096, f1: 0.215806, recall: 0.307193, precision: 0.239369, tempo: 0.371262
+
+CART: accuracy: 0.936681, f1: 0.772956, recall: 0.758067, precision: 0.801714, tempo: 0.495172
+
+R.Forest: accuracy: 0.937936, f1: 0.775198, recall: 0.756387, precision: 0.810285, tempo: 3.272506
+
+Bagging: accuracy: 0.936728, f1: 0.775540, recall: 0.756020, precision: 0.812126, tempo: 4.564395
+
+KNN: accuracy: 0.918517, f1: 0.751421, recall: 0.734160, precision: 0.786115, tempo: 2.908208
+
+SVM: accuracy: 0.926786, f1: 0.760977, recall: 0.727090, precision: 0.834065, tempo: 31.619338
+
+AdaBoost: accuracy: 0.525829, f1: 0.279535, recall: 0.308877, precision: 0.352984, tempo: 3.981471
+
+------------XXXXXXXXXXXXXXXXXXXX Run 19 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.382096, f1: 0.215806, recall: 0.307193, precision: 0.239369, tempo: 0.388141
+
+CART: accuracy: 0.936681, f1: 0.772956, recall: 0.758067, precision: 0.801714, tempo: 0.530213
+
+R.Forest: accuracy: 0.937936, f1: 0.775198, recall: 0.756387, precision: 0.810285, tempo: 4.105360
+
+Bagging: accuracy: 0.936728, f1: 0.775540, recall: 0.756020, precision: 0.812126, tempo: 5.159973
+
+KNN: accuracy: 0.918517, f1: 0.751421, recall: 0.734160, precision: 0.786115, tempo: 2.937612
+
+SVM: accuracy: 0.926786, f1: 0.760977, recall: 0.727090, precision: 0.834065, tempo: 36.849493
+
+AdaBoost: accuracy: 0.525829, f1: 0.279535, recall: 0.308877, precision: 0.352984, tempo: 4.021074
+
+------------XXXXXXXXXXXXXXXXXXXX Run 20 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.382096, f1: 0.215806, recall: 0.307193, precision: 0.239369, tempo: 0.448198
+
+CART: accuracy: 0.936681, f1: 0.772956, recall: 0.758067, precision: 0.801714, tempo: 0.558152
+
+R.Forest: accuracy: 0.937936, f1: 0.775198, recall: 0.756387, precision: 0.810285, tempo: 3.552314
+
+Bagging: accuracy: 0.936728, f1: 0.775540, recall: 0.756020, precision: 0.812126, tempo: 5.158316
+
+KNN: accuracy: 0.918517, f1: 0.751421, recall: 0.734160, precision: 0.786115, tempo: 3.364347
+
+SVM: accuracy: 0.926786, f1: 0.760977, recall: 0.727090, precision: 0.834065, tempo: 36.813464
+
+AdaBoost: accuracy: 0.525829, f1: 0.279535, recall: 0.308877, precision: 0.352984, tempo: 4.803164
+
+------------XXXXXXXXXXXXXXXXXXXX Run 21 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.382096, f1: 0.215806, recall: 0.307193, precision: 0.239369, tempo: 0.352384
+
+CART: accuracy: 0.936681, f1: 0.772956, recall: 0.758067, precision: 0.801714, tempo: 0.589192
+
+R.Forest: accuracy: 0.937936, f1: 0.775198, recall: 0.756387, precision: 0.810285, tempo: 3.689279
+
+Bagging: accuracy: 0.936728, f1: 0.775540, recall: 0.756020, precision: 0.812126, tempo: 5.078403
+
+KNN: accuracy: 0.918517, f1: 0.751421, recall: 0.734160, precision: 0.786115, tempo: 2.951179
+
+SVM: accuracy: 0.926786, f1: 0.760977, recall: 0.727090, precision: 0.834065, tempo: 35.376107
+
+AdaBoost: accuracy: 0.525829, f1: 0.279535, recall: 0.308877, precision: 0.352984, tempo: 3.883659
+
+------------XXXXXXXXXXXXXXXXXXXX Run 22 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.382096, f1: 0.215806, recall: 0.307193, precision: 0.239369, tempo: 0.521350
+
+CART: accuracy: 0.936681, f1: 0.772956, recall: 0.758067, precision: 0.801714, tempo: 0.816644
+
+R.Forest: accuracy: 0.937936, f1: 0.775198, recall: 0.756387, precision: 0.810285, tempo: 4.093521
+
+Bagging: accuracy: 0.936728, f1: 0.775540, recall: 0.756020, precision: 0.812126, tempo: 5.779045
+
+KNN: accuracy: 0.918517, f1: 0.751421, recall: 0.734160, precision: 0.786115, tempo: 3.477701
+
+SVM: accuracy: 0.926786, f1: 0.760977, recall: 0.727090, precision: 0.834065, tempo: 35.323000
+
+AdaBoost: accuracy: 0.525829, f1: 0.279535, recall: 0.308877, precision: 0.352984, tempo: 4.393615
+
+------------XXXXXXXXXXXXXXXXXXXX Run 23 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.382096, f1: 0.215806, recall: 0.307193, precision: 0.239369, tempo: 0.356097
+
+CART: accuracy: 0.936681, f1: 0.772956, recall: 0.758067, precision: 0.801714, tempo: 0.519192
+
+R.Forest: accuracy: 0.937936, f1: 0.775198, recall: 0.756387, precision: 0.810285, tempo: 3.554945
+
+Bagging: accuracy: 0.936728, f1: 0.775540, recall: 0.756020, precision: 0.812126, tempo: 5.218964
+
+KNN: accuracy: 0.918517, f1: 0.751421, recall: 0.734160, precision: 0.786115, tempo: 3.409206
+
+SVM: accuracy: 0.926786, f1: 0.760977, recall: 0.727090, precision: 0.834065, tempo: 36.249138
+
+AdaBoost: accuracy: 0.525829, f1: 0.279535, recall: 0.308877, precision: 0.352984, tempo: 4.752048
+
+------------XXXXXXXXXXXXXXXXXXXX Run 24 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.382096, f1: 0.215806, recall: 0.307193, precision: 0.239369, tempo: 0.388000
+
+CART: accuracy: 0.936681, f1: 0.772956, recall: 0.758067, precision: 0.801714, tempo: 0.583297
+
+R.Forest: accuracy: 0.937936, f1: 0.775198, recall: 0.756387, precision: 0.810285, tempo: 3.807052
+
+Bagging: accuracy: 0.936728, f1: 0.775540, recall: 0.756020, precision: 0.812126, tempo: 5.252656
+
+KNN: accuracy: 0.918517, f1: 0.751421, recall: 0.734160, precision: 0.786115, tempo: 3.479483
+
+SVM: accuracy: 0.926786, f1: 0.760977, recall: 0.727090, precision: 0.834065, tempo: 35.051563
+
+AdaBoost: accuracy: 0.525829, f1: 0.279535, recall: 0.308877, precision: 0.352984, tempo: 4.438065
+
+------------XXXXXXXXXXXXXXXXXXXX Run 25 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.382096, f1: 0.238913, recall: 0.343311, precision: 0.260465, tempo: 0.319538
+
+CART: accuracy: 0.937192, f1: 0.775677, recall: 0.763860, precision: 0.799982, tempo: 0.595531
+
+R.Forest: accuracy: 0.940351, f1: 0.881100, recall: 0.865118, precision: 0.911356, tempo: 3.522160
+
+Bagging: accuracy: 0.938586, f1: 0.778069, recall: 0.763477, precision: 0.805354, tempo: 5.099452
+
+KNN: accuracy: 0.918703, f1: 0.842752, recall: 0.823200, precision: 0.880131, tempo: 3.119905
+
+SVM: accuracy: 0.929295, f1: 0.862296, recall: 0.832007, precision: 0.914167, tempo: 37.090367
+
+AdaBoost: accuracy: 0.358218, f1: 0.178237, recall: 0.183746, precision: 0.182164, tempo: 4.537723
+
+------------XXXXXXXXXXXXXXXXXXXX Run 26 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.382096, f1: 0.238913, recall: 0.343311, precision: 0.260465, tempo: 0.391022
+
+CART: accuracy: 0.937192, f1: 0.775677, recall: 0.763860, precision: 0.799982, tempo: 0.678505
+
+R.Forest: accuracy: 0.940351, f1: 0.881100, recall: 0.865118, precision: 0.911356, tempo: 3.929260
+
+Bagging: accuracy: 0.938586, f1: 0.778069, recall: 0.763477, precision: 0.805354, tempo: 4.911584
+
+KNN: accuracy: 0.918703, f1: 0.842752, recall: 0.823200, precision: 0.880131, tempo: 2.813854
+
+SVM: accuracy: 0.929295, f1: 0.862296, recall: 0.832007, precision: 0.914167, tempo: 38.254992
+
+AdaBoost: accuracy: 0.358218, f1: 0.178237, recall: 0.183746, precision: 0.182164, tempo: 4.197184
+
+------------XXXXXXXXXXXXXXXXXXXX Run 27 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.382096, f1: 0.238913, recall: 0.343311, precision: 0.260465, tempo: 0.354316
+
+CART: accuracy: 0.937192, f1: 0.775677, recall: 0.763860, precision: 0.799982, tempo: 0.508824
+
+R.Forest: accuracy: 0.940351, f1: 0.881100, recall: 0.865118, precision: 0.911356, tempo: 3.365158
+
+Bagging: accuracy: 0.938586, f1: 0.778069, recall: 0.763477, precision: 0.805354, tempo: 4.685626
+
+KNN: accuracy: 0.918703, f1: 0.842752, recall: 0.823200, precision: 0.880131, tempo: 3.184247
+
+SVM: accuracy: 0.929295, f1: 0.862296, recall: 0.832007, precision: 0.914167, tempo: 37.042684
+
+AdaBoost: accuracy: 0.358218, f1: 0.178237, recall: 0.183746, precision: 0.182164, tempo: 4.519559
+
+------------XXXXXXXXXXXXXXXXXXXX Run 28 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.382096, f1: 0.238913, recall: 0.343311, precision: 0.260465, tempo: 0.320381
+
+CART: accuracy: 0.937192, f1: 0.775677, recall: 0.763860, precision: 0.799982, tempo: 0.496613
+
+R.Forest: accuracy: 0.940351, f1: 0.881100, recall: 0.865118, precision: 0.911356, tempo: 3.406094
+
+Bagging: accuracy: 0.938586, f1: 0.778069, recall: 0.763477, precision: 0.805354, tempo: 5.156697
+
+KNN: accuracy: 0.918703, f1: 0.842752, recall: 0.823200, precision: 0.880131, tempo: 3.268082
+
+SVM: accuracy: 0.929295, f1: 0.862296, recall: 0.832007, precision: 0.914167, tempo: 37.730346
+
+AdaBoost: accuracy: 0.358218, f1: 0.178237, recall: 0.183746, precision: 0.182164, tempo: 4.813357
+
+------------XXXXXXXXXXXXXXXXXXXX Run 29 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.382096, f1: 0.238913, recall: 0.343311, precision: 0.260465, tempo: 0.353033
+
+CART: accuracy: 0.937192, f1: 0.775677, recall: 0.763860, precision: 0.799982, tempo: 0.495547
+
+R.Forest: accuracy: 0.940351, f1: 0.881100, recall: 0.865118, precision: 0.911356, tempo: 3.844498
+
+Bagging: accuracy: 0.938586, f1: 0.778069, recall: 0.763477, precision: 0.805354, tempo: 5.941679
+
+KNN: accuracy: 0.918703, f1: 0.842752, recall: 0.823200, precision: 0.880131, tempo: 3.024060
+
+SVM: accuracy: 0.929295, f1: 0.862296, recall: 0.832007, precision: 0.914167, tempo: 38.908905
+
+AdaBoost: accuracy: 0.358218, f1: 0.178237, recall: 0.183746, precision: 0.182164, tempo: 5.014976
+
+------------XXXXXXXXXXXXXXXXXXXX Run 30 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.382096, f1: 0.238913, recall: 0.343311, precision: 0.260465, tempo: 0.394375
+
+CART: accuracy: 0.937192, f1: 0.775677, recall: 0.763860, precision: 0.799982, tempo: 0.619320
+
+R.Forest: accuracy: 0.940351, f1: 0.881100, recall: 0.865118, precision: 0.911356, tempo: 3.362402
+
+Bagging: accuracy: 0.938586, f1: 0.778069, recall: 0.763477, precision: 0.805354, tempo: 5.355115
+
+KNN: accuracy: 0.918703, f1: 0.842752, recall: 0.823200, precision: 0.880131, tempo: 3.726474
+
+SVM: accuracy: 0.929295, f1: 0.862296, recall: 0.832007, precision: 0.914167, tempo: 35.121966
+
+AdaBoost: accuracy: 0.358218, f1: 0.178237, recall: 0.183746, precision: 0.182164, tempo: 4.117608
+
+------------XXXXXXXXXXXXXXXXXXXX Run 31 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.382096, f1: 0.238913, recall: 0.343311, precision: 0.260465, tempo: 0.358438
+
+CART: accuracy: 0.937192, f1: 0.775677, recall: 0.763860, precision: 0.799982, tempo: 0.555845
+
+R.Forest: accuracy: 0.940351, f1: 0.881100, recall: 0.865118, precision: 0.911356, tempo: 4.288705
+
+Bagging: accuracy: 0.938586, f1: 0.778069, recall: 0.763477, precision: 0.805354, tempo: 5.611067
+
+KNN: accuracy: 0.918703, f1: 0.842752, recall: 0.823200, precision: 0.880131, tempo: 3.185719
+
+SVM: accuracy: 0.929295, f1: 0.862296, recall: 0.832007, precision: 0.914167, tempo: 35.745967
+
+AdaBoost: accuracy: 0.358218, f1: 0.178237, recall: 0.183746, precision: 0.182164, tempo: 4.669949
+
+------------XXXXXXXXXXXXXXXXXXXX Run 32 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.382096, f1: 0.238913, recall: 0.343311, precision: 0.260465, tempo: 0.421929
+
+CART: accuracy: 0.937192, f1: 0.775677, recall: 0.763860, precision: 0.799982, tempo: 0.635328
+
+R.Forest: accuracy: 0.940351, f1: 0.881100, recall: 0.865118, precision: 0.911356, tempo: 3.527963
+
+Bagging: accuracy: 0.938586, f1: 0.778069, recall: 0.763477, precision: 0.805354, tempo: 5.116443
+
+KNN: accuracy: 0.918703, f1: 0.842752, recall: 0.823200, precision: 0.880131, tempo: 2.926158
+
+SVM: accuracy: 0.929295, f1: 0.862296, recall: 0.832007, precision: 0.914167, tempo: 38.819039
+
+AdaBoost: accuracy: 0.358218, f1: 0.178237, recall: 0.183746, precision: 0.182164, tempo: 4.549632
+
+------------XXXXXXXXXXXXXXXXXXXX Run 33 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.380656, f1: 0.214928, recall: 0.307204, precision: 0.237937, tempo: 0.361162
+
+CART: accuracy: 0.934080, f1: 0.771482, recall: 0.760795, precision: 0.797052, tempo: 0.513689
+
+R.Forest: accuracy: 0.937471, f1: 0.778320, recall: 0.760430, precision: 0.812720, tempo: 3.686500
+
+Bagging: accuracy: 0.936031, f1: 0.774867, recall: 0.758485, precision: 0.807128, tempo: 5.055518
+
+KNN: accuracy: 0.917449, f1: 0.753092, recall: 0.735167, precision: 0.788843, tempo: 3.177341
+
+SVM: accuracy: 0.924138, f1: 0.758703, recall: 0.723263, precision: 0.829821, tempo: 35.701996
+
+AdaBoost: accuracy: 0.365883, f1: 0.230445, recall: 0.289413, precision: 0.268481, tempo: 4.548249
+
+------------XXXXXXXXXXXXXXXXXXXX Run 34 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.380656, f1: 0.214928, recall: 0.307204, precision: 0.237937, tempo: 0.350769
+
+CART: accuracy: 0.934080, f1: 0.771482, recall: 0.760795, precision: 0.797052, tempo: 0.642306
+
+R.Forest: accuracy: 0.937471, f1: 0.778320, recall: 0.760430, precision: 0.812720, tempo: 3.617072
+
+Bagging: accuracy: 0.936031, f1: 0.774867, recall: 0.758485, precision: 0.807128, tempo: 5.296049
+
+KNN: accuracy: 0.917449, f1: 0.753092, recall: 0.735167, precision: 0.788843, tempo: 3.287758
+
+SVM: accuracy: 0.924138, f1: 0.758703, recall: 0.723263, precision: 0.829821, tempo: 37.368703
+
+AdaBoost: accuracy: 0.365883, f1: 0.230445, recall: 0.289413, precision: 0.268481, tempo: 4.633764
+
+------------XXXXXXXXXXXXXXXXXXXX Run 35 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.380656, f1: 0.214928, recall: 0.307204, precision: 0.237937, tempo: 0.348466
+
+CART: accuracy: 0.934080, f1: 0.771482, recall: 0.760795, precision: 0.797052, tempo: 0.594265
+
+R.Forest: accuracy: 0.937471, f1: 0.778320, recall: 0.760430, precision: 0.812720, tempo: 3.845036
+
+Bagging: accuracy: 0.936031, f1: 0.774867, recall: 0.758485, precision: 0.807128, tempo: 5.175461
+
+KNN: accuracy: 0.917449, f1: 0.753092, recall: 0.735167, precision: 0.788843, tempo: 3.459017
+
+SVM: accuracy: 0.924138, f1: 0.758703, recall: 0.723263, precision: 0.829821, tempo: 36.121105
+
+AdaBoost: accuracy: 0.365883, f1: 0.230445, recall: 0.289413, precision: 0.268481, tempo: 3.973413
+
+------------XXXXXXXXXXXXXXXXXXXX Run 36 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.380656, f1: 0.214928, recall: 0.307204, precision: 0.237937, tempo: 0.339762
+
+CART: accuracy: 0.934080, f1: 0.771482, recall: 0.760795, precision: 0.797052, tempo: 0.581680
+
+R.Forest: accuracy: 0.937471, f1: 0.778320, recall: 0.760430, precision: 0.812720, tempo: 3.795293
+
+Bagging: accuracy: 0.936031, f1: 0.774867, recall: 0.758485, precision: 0.807128, tempo: 5.231536
+
+KNN: accuracy: 0.917449, f1: 0.753092, recall: 0.735167, precision: 0.788843, tempo: 3.186460
+
+SVM: accuracy: 0.924138, f1: 0.758703, recall: 0.723263, precision: 0.829821, tempo: 36.077026
+
+AdaBoost: accuracy: 0.365883, f1: 0.230445, recall: 0.289413, precision: 0.268481, tempo: 4.535992
+
+------------XXXXXXXXXXXXXXXXXXXX Run 37 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.380656, f1: 0.214928, recall: 0.307204, precision: 0.237937, tempo: 0.354979
+
+CART: accuracy: 0.934080, f1: 0.771482, recall: 0.760795, precision: 0.797052, tempo: 0.506186
+
+R.Forest: accuracy: 0.937471, f1: 0.778320, recall: 0.760430, precision: 0.812720, tempo: 3.389485
+
+Bagging: accuracy: 0.936031, f1: 0.774867, recall: 0.758485, precision: 0.807128, tempo: 5.498885
+
+KNN: accuracy: 0.917449, f1: 0.753092, recall: 0.735167, precision: 0.788843, tempo: 3.740153
+
+SVM: accuracy: 0.924138, f1: 0.758703, recall: 0.723263, precision: 0.829821, tempo: 37.726413
+
+AdaBoost: accuracy: 0.365883, f1: 0.230445, recall: 0.289413, precision: 0.268481, tempo: 4.481551
+
+------------XXXXXXXXXXXXXXXXXXXX Run 38 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.380656, f1: 0.214928, recall: 0.307204, precision: 0.237937, tempo: 0.356093
+
+CART: accuracy: 0.934080, f1: 0.771482, recall: 0.760795, precision: 0.797052, tempo: 0.747605
+
+R.Forest: accuracy: 0.937471, f1: 0.778320, recall: 0.760430, precision: 0.812720, tempo: 4.164456
+
+Bagging: accuracy: 0.936031, f1: 0.774867, recall: 0.758485, precision: 0.807128, tempo: 5.197183
+
+KNN: accuracy: 0.917449, f1: 0.753092, recall: 0.735167, precision: 0.788843, tempo: 2.985090
+
+SVM: accuracy: 0.924138, f1: 0.758703, recall: 0.723263, precision: 0.829821, tempo: 34.413687
+
+AdaBoost: accuracy: 0.365883, f1: 0.230445, recall: 0.289413, precision: 0.268481, tempo: 4.114150
+
+------------XXXXXXXXXXXXXXXXXXXX Run 39 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.380656, f1: 0.214928, recall: 0.307204, precision: 0.237937, tempo: 0.438539
+
+CART: accuracy: 0.934080, f1: 0.771482, recall: 0.760795, precision: 0.797052, tempo: 0.574115
+
+R.Forest: accuracy: 0.937471, f1: 0.778320, recall: 0.760430, precision: 0.812720, tempo: 3.666809
+
+Bagging: accuracy: 0.936031, f1: 0.774867, recall: 0.758485, precision: 0.807128, tempo: 5.461842
+
+KNN: accuracy: 0.917449, f1: 0.753092, recall: 0.735167, precision: 0.788843, tempo: 3.324007
+
+SVM: accuracy: 0.924138, f1: 0.758703, recall: 0.723263, precision: 0.829821, tempo: 37.786328
+
+AdaBoost: accuracy: 0.365883, f1: 0.230445, recall: 0.289413, precision: 0.268481, tempo: 5.440997
+
+------------XXXXXXXXXXXXXXXXXXXX Run 40 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.380656, f1: 0.214928, recall: 0.307204, precision: 0.237937, tempo: 0.345496
+
+CART: accuracy: 0.934080, f1: 0.771482, recall: 0.760795, precision: 0.797052, tempo: 0.508108
+
+R.Forest: accuracy: 0.937471, f1: 0.778320, recall: 0.760430, precision: 0.812720, tempo: 3.386214
+
+Bagging: accuracy: 0.936031, f1: 0.774867, recall: 0.758485, precision: 0.807128, tempo: 5.359734
+
+KNN: accuracy: 0.917449, f1: 0.753092, recall: 0.735167, precision: 0.788843, tempo: 3.073086
+
+SVM: accuracy: 0.924138, f1: 0.758703, recall: 0.723263, precision: 0.829821, tempo: 36.806985
+
+AdaBoost: accuracy: 0.365883, f1: 0.230445, recall: 0.289413, precision: 0.268481, tempo: 4.367899
+
+------------XXXXXXXXXXXXXXXXXXXX Run 41 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.379913, f1: 0.212575, recall: 0.304740, precision: 0.234570, tempo: 0.350528
+
+CART: accuracy: 0.934869, f1: 0.803552, recall: 0.806555, precision: 0.835345, tempo: 0.591357
+
+R.Forest: accuracy: 0.937053, f1: 0.848274, recall: 0.806968, precision: 0.930348, tempo: 3.524571
+
+Bagging: accuracy: 0.936449, f1: 0.810340, recall: 0.807982, precision: 0.841742, tempo: 5.202174
+
+KNN: accuracy: 0.917402, f1: 0.749063, recall: 0.726725, precision: 0.798974, tempo: 3.230412
+
+SVM: accuracy: 0.926136, f1: 0.835497, recall: 0.785374, precision: 0.935361, tempo: 37.506686
+
+AdaBoost: accuracy: 0.552216, f1: 0.264673, recall: 0.309296, precision: 0.248593, tempo: 4.332085
+
+------------XXXXXXXXXXXXXXXXXXXX Run 42 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.379913, f1: 0.212575, recall: 0.304740, precision: 0.234570, tempo: 0.372991
+
+CART: accuracy: 0.934869, f1: 0.803552, recall: 0.806555, precision: 0.835345, tempo: 0.503080
+
+R.Forest: accuracy: 0.937053, f1: 0.848274, recall: 0.806968, precision: 0.930348, tempo: 3.297991
+
+Bagging: accuracy: 0.936449, f1: 0.810340, recall: 0.807982, precision: 0.841742, tempo: 5.028473
+
+KNN: accuracy: 0.917402, f1: 0.749063, recall: 0.726725, precision: 0.798974, tempo: 2.832748
+
+SVM: accuracy: 0.926136, f1: 0.835497, recall: 0.785374, precision: 0.935361, tempo: 37.679346
+
+AdaBoost: accuracy: 0.552216, f1: 0.264673, recall: 0.309296, precision: 0.248593, tempo: 5.087711
+
+------------XXXXXXXXXXXXXXXXXXXX Run 43 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.379913, f1: 0.212575, recall: 0.304740, precision: 0.234570, tempo: 0.429566
+
+CART: accuracy: 0.934869, f1: 0.803552, recall: 0.806555, precision: 0.835345, tempo: 0.675199
+
+R.Forest: accuracy: 0.937053, f1: 0.848274, recall: 0.806968, precision: 0.930348, tempo: 3.979731
+
+Bagging: accuracy: 0.936449, f1: 0.810340, recall: 0.807982, precision: 0.841742, tempo: 4.799336
+
+KNN: accuracy: 0.917402, f1: 0.749063, recall: 0.726725, precision: 0.798974, tempo: 2.965781
+
+SVM: accuracy: 0.926136, f1: 0.835497, recall: 0.785374, precision: 0.935361, tempo: 36.264018
+
+AdaBoost: accuracy: 0.552216, f1: 0.264673, recall: 0.309296, precision: 0.248593, tempo: 4.759709
+
+------------XXXXXXXXXXXXXXXXXXXX Run 44 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.379913, f1: 0.212575, recall: 0.304740, precision: 0.234570, tempo: 0.376576
+
+CART: accuracy: 0.934869, f1: 0.803552, recall: 0.806555, precision: 0.835345, tempo: 0.572094
+
+R.Forest: accuracy: 0.937053, f1: 0.848274, recall: 0.806968, precision: 0.930348, tempo: 4.012867
+
+Bagging: accuracy: 0.936449, f1: 0.810340, recall: 0.807982, precision: 0.841742, tempo: 5.406070
+
+KNN: accuracy: 0.917402, f1: 0.749063, recall: 0.726725, precision: 0.798974, tempo: 3.512406
+
+SVM: accuracy: 0.926136, f1: 0.835497, recall: 0.785374, precision: 0.935361, tempo: 37.408445
+
+AdaBoost: accuracy: 0.552216, f1: 0.264673, recall: 0.309296, precision: 0.248593, tempo: 4.097871
+
+------------XXXXXXXXXXXXXXXXXXXX Run 45 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.379913, f1: 0.212575, recall: 0.304740, precision: 0.234570, tempo: 0.338341
+
+CART: accuracy: 0.934869, f1: 0.803552, recall: 0.806555, precision: 0.835345, tempo: 0.565225
+
+R.Forest: accuracy: 0.937053, f1: 0.848274, recall: 0.806968, precision: 0.930348, tempo: 3.492070
+
+Bagging: accuracy: 0.936449, f1: 0.810340, recall: 0.807982, precision: 0.841742, tempo: 5.446442
+
+KNN: accuracy: 0.917402, f1: 0.749063, recall: 0.726725, precision: 0.798974, tempo: 2.926672
+
+SVM: accuracy: 0.926136, f1: 0.835497, recall: 0.785374, precision: 0.935361, tempo: 38.132831
+
+AdaBoost: accuracy: 0.552216, f1: 0.264673, recall: 0.309296, precision: 0.248593, tempo: 3.790511
+
+------------XXXXXXXXXXXXXXXXXXXX Run 46 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.379913, f1: 0.212575, recall: 0.304740, precision: 0.234570, tempo: 0.365760
+
+CART: accuracy: 0.934869, f1: 0.803552, recall: 0.806555, precision: 0.835345, tempo: 0.650371
+
+R.Forest: accuracy: 0.937053, f1: 0.848274, recall: 0.806968, precision: 0.930348, tempo: 3.581955
+
+Bagging: accuracy: 0.936449, f1: 0.810340, recall: 0.807982, precision: 0.841742, tempo: 5.441862
+
+KNN: accuracy: 0.917402, f1: 0.749063, recall: 0.726725, precision: 0.798974, tempo: 3.366778
+
+SVM: accuracy: 0.926136, f1: 0.835497, recall: 0.785374, precision: 0.935361, tempo: 36.940192
+
+AdaBoost: accuracy: 0.552216, f1: 0.264673, recall: 0.309296, precision: 0.248593, tempo: 4.109039
+
+------------XXXXXXXXXXXXXXXXXXXX Run 47 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.379913, f1: 0.212575, recall: 0.304740, precision: 0.234570, tempo: 0.368423
+
+CART: accuracy: 0.934869, f1: 0.803552, recall: 0.806555, precision: 0.835345, tempo: 0.485614
+
+R.Forest: accuracy: 0.937053, f1: 0.848274, recall: 0.806968, precision: 0.930348, tempo: 3.834861
+
+Bagging: accuracy: 0.936449, f1: 0.810340, recall: 0.807982, precision: 0.841742, tempo: 5.421439
+
+KNN: accuracy: 0.917402, f1: 0.749063, recall: 0.726725, precision: 0.798974, tempo: 3.711291
+
+SVM: accuracy: 0.926136, f1: 0.835497, recall: 0.785374, precision: 0.935361, tempo: 37.097666
+
+AdaBoost: accuracy: 0.552216, f1: 0.264673, recall: 0.309296, precision: 0.248593, tempo: 3.105940
+
+------------XXXXXXXXXXXXXXXXXXXX Run 48 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.379913, f1: 0.212575, recall: 0.304740, precision: 0.234570, tempo: 0.388399
+
+CART: accuracy: 0.934869, f1: 0.803552, recall: 0.806555, precision: 0.835345, tempo: 0.604134
+
+R.Forest: accuracy: 0.937053, f1: 0.848274, recall: 0.806968, precision: 0.930348, tempo: 4.058515
+
+Bagging: accuracy: 0.936449, f1: 0.810340, recall: 0.807982, precision: 0.841742, tempo: 5.050415
+
+KNN: accuracy: 0.917402, f1: 0.749063, recall: 0.726725, precision: 0.798974, tempo: 3.914160
+
+SVM: accuracy: 0.926136, f1: 0.835497, recall: 0.785374, precision: 0.935361, tempo: 36.682940
+
+AdaBoost: accuracy: 0.552216, f1: 0.264673, recall: 0.309296, precision: 0.248593, tempo: 2.688477
+
+------------XXXXXXXXXXXXXXXXXXXX Run 49 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.386602, f1: 0.218145, recall: 0.310808, precision: 0.242442, tempo: 0.348481
+
+CART: accuracy: 0.934219, f1: 0.808164, recall: 0.871037, precision: 0.826874, tempo: 0.499654
+
+R.Forest: accuracy: 0.936588, f1: 0.832269, recall: 0.870879, precision: 0.845864, tempo: 3.253344
+
+Bagging: accuracy: 0.935334, f1: 0.820947, recall: 0.870422, precision: 0.837106, tempo: 4.452830
+
+KNN: accuracy: 0.880331, f1: 0.684912, recall: 0.710294, precision: 0.727539, tempo: 2.866962
+
+SVM: accuracy: 0.923441, f1: 0.870025, recall: 0.836892, precision: 0.935389, tempo: 20.485987
+
+AdaBoost: accuracy: 0.374617, f1: 0.115274, recall: 0.179898, precision: 0.109232, tempo: 2.331005
+
+------------XXXXXXXXXXXXXXXXXXXX Run 50 XXXXXXXXXXXXXXXXXXXX---------------
+
+NB: accuracy: 0.386602, f1: 0.218145, recall: 0.310808, precision: 0.242442, tempo: 0.386406
+
+CART: accuracy: 0.934219, f1: 0.808164, recall: 0.871037, precision: 0.826874, tempo: 0.548495
+
+R.Forest: accuracy: 0.936588, f1: 0.832269, recall: 0.870879, precision: 0.845864, tempo: 3.319212
+
+Bagging: accuracy: 0.935334, f1: 0.820947, recall: 0.870422, precision: 0.837106, tempo: 4.298063
+
+KNN: accuracy: 0.880331, f1: 0.684912, recall: 0.710294, precision: 0.727539, tempo: 1.619323
+
+SVM: accuracy: 0.923441, f1: 0.870025, recall: 0.836892, precision: 0.935389, tempo: 20.382649
+
+AdaBoost: accuracy: 0.374617, f1: 0.115274, recall: 0.179898, precision: 0.109232, tempo: 2.290205
