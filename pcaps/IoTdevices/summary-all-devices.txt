@@ -1,0 +1,15 @@
+File name:           amazonEcho-all2.pcap
+Number of packets:   681 k
+Data size:           78 MB
+Capture duration:    1689160,881156 secon
+First packet time:   2016-09-22 11:00:06,473253
+Last packet time:    2016-10-12 00:12:47,354409
+Data byte rate:      46 bytes/s
+Data bit rate:       373 bits/s
+Average packet size: 115,79 bytes
+Average packet rate: 0 packets/s
+Strict time order:   False
+Exact number of packets:  
+681961
+  ----------------------------    
+ 

@@ -1,0 +1,32 @@
+File name:           BabyMonitor-all2.pcap
+File type:           Wireshark/... - pcapng
+File encapsulation:  Ethernet
+File timestamp precision:  microseconds (6)
+Packet size limit:   file hdr: (not set)
+Number of packets:   350 k
+File size:           39 MB
+Data size:           27 MB
+Capture duration:    1260316,229559 secon
+First packet time:   2016-09-22 11:00:04,580466
+Last packet time:    2016-10-07 01:05:20,810025
+Data byte rate:      22 bytes/s
+Data bit rate:       176 bits/s
+Average packet size: 79,48 bytes
+Average packet rate: 0 packets/s
+SHA256:              06e415607a778cc6f6151babdcac6d466e1c36ac9a8f68c4818da9060827fa82
+RIPEMD160:           6aad3829ddd887f0ea31b40dae1928e0ffc9eb88
+SHA1:                51c56944fa08c2f551e1c68273af04a40ed7bdc5
+Strict time order:   False
+Capture oper-sys:    Linux 4.15.0-46-generic
+Capture application: mergecap
+Capture comment:     File created by merging:  File1: ./tcpdump/iotdump_temp/16-10-12/00_00_02.pcap  File2: ./tcpdump/iotdump_temp/16-10-12/00_06_26.pcap  File3: ./tcpdump/iotdump_temp/16-10-12/12_06_26.pcap    File created by merging:  File1: BabyMonitor-16-10-12.pcap  File2: BabyMonitor-16-10-11.pcap  File3: BabyMonitor-16-10-10.pcap  File4: BabyMonitor-16-10-09.pcap  File5: BabyMonitor-16-10-08.pcap  File6: BabyMonitor-16-10-07.pcap  File7: BabyMonitor-16-10-06.pcap  File8: BabyMonitor-16-10-05.pcap  File9: BabyMonitor-16-10-04.pcap  File10: BabyMonitor-16-10-03.pcap  File11: BabyMonitor-16-10-02.pcap  File12: BabyMonitor-16-10-01.pcap  File13: BabyMonitor-16-09-30.pcap  File14: BabyMonitor-16-09-29.pcap  File15: BabyMonitor-16-09-28.pcap  File16: BabyMonitor-16-09-27.pcap  File17: BabyMonitor-16-09-26.pcap  File18: BabyMonitor-16-09-25.pcap  File19: BabyMonitor-16-09-24.pcap  File20: BabyMonitor-16-09-23.pcap  
+Number of interfaces in file: 1
+Interface #0 info:
+                     Name = Unknown/not available in original file format(libpcap)
+                     Encapsulation = Ethernet (1 - ether)
+                     Capture length = 65535
+                     Time precision = microseconds (6)
+                     Time ticks per second = 1000000
+                     Time resolution = 0x06
+                     Number of stat entries = 0
+                     Number of packets = 350718

@@ -1,0 +1,32 @@
+File name:           laptop-all2.pcap
+File type:           Wireshark/... - pcapng
+File encapsulation:  Ethernet
+File timestamp precision:  microseconds (6)
+Packet size limit:   file hdr: (not set)
+Number of packets:   1.979 k
+File size:           309 MB
+Data size:           242 MB
+Capture duration:    1644246,624441 secon
+First packet time:   2016-09-22 23:28:43,552128
+Last packet time:    2016-10-12 00:12:50,176569
+Data byte rate:      147 bytes/s
+Data bit rate:       1.180 bits/s
+Average packet size: 122,54 bytes
+Average packet rate: 1 packets/s
+SHA256:              8e599236dd40e880900102c970a72a5d63361f27300f027df31fbbe87209951b
+RIPEMD160:           fa8c87126b08ffe34ce0feb5a4fbab5a2abef8ac
+SHA1:                b3670a08f52b2f8f1769d4afffaf953f684487a6
+Strict time order:   False
+Capture oper-sys:    Linux 4.15.0-46-generic
+Capture application: mergecap
+Capture comment:     File created by merging:  File1: ./tcpdump/iotdump_temp/16-10-12/00_00_02.pcap  File2: ./tcpdump/iotdump_temp/16-10-12/00_06_26.pcap  File3: ./tcpdump/iotdump_temp/16-10-12/12_06_26.pcap    File created by merging:  File1: laptop-16-10-12.pcap  File2: laptop-16-10-11.pcap  File3: laptop-16-10-10.pcap  File4: laptop-16-10-09.pcap  File5: laptop-16-10-08.pcap  File6: laptop-16-10-07.pcap  File7: laptop-16-10-06.pcap  File8: laptop-16-10-05.pcap  File9: laptop-16-10-04.pcap  File10: laptop-16-10-03.pcap  File11: laptop-16-10-02.pcap  File12: laptop-16-10-01.pcap  File13: laptop-16-09-30.pcap  File14: laptop-16-09-29.pcap  File15: laptop-16-09-28.pcap  File16: laptop-16-09-27.pcap  File17: laptop-16-09-26.pcap  File18: laptop-16-09-25.pcap  File19: laptop-16-09-24.pcap  File20: laptop-16-09-23.pcap  
+Number of interfaces in file: 1
+Interface #0 info:
+                     Name = Unknown/not available in original file format(libpcap)
+                     Encapsulation = Ethernet (1 - ether)
+                     Capture length = 65535
+                     Time precision = microseconds (6)
+                     Time ticks per second = 1000000
+                     Time resolution = 0x06
+                     Number of stat entries = 0
+                     Number of packets = 1979295

@@ -1,0 +1,32 @@
+File name:           LIFXlighbulb-all2.pcap
+File type:           Wireshark/... - pcapng
+File encapsulation:  Ethernet
+File timestamp precision:  microseconds (6)
+Packet size limit:   file hdr: (not set)
+Number of packets:   87 k
+File size:           11 MB
+Data size:           8.481 kB
+Capture duration:    1218029,316991 secon
+First packet time:   2016-09-27 21:51:31,932184
+Last packet time:    2016-10-12 00:12:01,249175
+Data byte rate:      6 bytes/s
+Data bit rate:       55 bits/s
+Average packet size: 96,43 bytes
+Average packet rate: 0 packets/s
+SHA256:              0a5164dff09c1cd4cf277717da7dfed1c67b1e4226875660e7c2e4fc5a2f0586
+RIPEMD160:           5fd442d36f57d14738cf5008c35ec430c205c9ab
+SHA1:                05206a8d1686092a622e4ff4ed5fde96682b362b
+Strict time order:   False
+Capture oper-sys:    Linux 4.15.0-46-generic
+Capture application: mergecap
+Capture comment:     File created by merging:  File1: ./tcpdump/iotdump_temp/16-10-12/00_00_02.pcap  File2: ./tcpdump/iotdump_temp/16-10-12/00_06_26.pcap  File3: ./tcpdump/iotdump_temp/16-10-12/12_06_26.pcap    File created by merging:  File1: LIFXlighbulb-16-10-12.pcap  File2: LIFXlighbulb-16-10-11.pcap  File3: LIFXlighbulb-16-10-10.pcap  File4: LIFXlighbulb-16-10-09.pcap  File5: LIFXlighbulb-16-10-08.pcap  File6: LIFXlighbulb-16-10-07.pcap  File7: LIFXlighbulb-16-10-06.pcap  File8: LIFXlighbulb-16-10-05.pcap  File9: LIFXlighbulb-16-10-04.pcap  File10: LIFXlighbulb-16-10-03.pcap  File11: LIFXlighbulb-16-10-02.pcap  File12: LIFXlighbulb-16-10-01.pcap  File13: LIFXlighbulb-16-09-30.pcap  File14: LIFXlighbulb-16-09-29.pcap  File15: LIFXlighbulb-16-09-28.pcap  File16: LIFXlighbulb-16-09-27.pcap  File17: LIFXlighbulb-16-09-26.pcap  File18: LIFXlighbulb-16-09-25.pcap  File19: LIFXlighbulb-16-09-24.pcap  File20: LIFXlighbulb-16-09-23.pcap  
+Number of interfaces in file: 1
+Interface #0 info:
+                     Name = Unknown/not available in original file format(libpcap)
+                     Encapsulation = Ethernet (1 - ether)
+                     Capture length = 65535
+                     Time precision = microseconds (6)
+                     Time ticks per second = 1000000
+                     Time resolution = 0x06
+                     Number of stat entries = 0
+                     Number of packets = 87953
