@@ -1,0 +1,186 @@
+#!/usr/bin/python
+
+"""
+sleuth performs query operations on JSON-formatted flow objects; see sleuth --help for more details
+
+ *
+ * Copyright (c) 2017 Cisco Systems, Inc.
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ *   Redistributions of source code must retain the above copyright
+ *   notice, this list of conditions and the following disclaimer.
+ *
+ *   Redistributions in binary form must reproduce the above
+ *   copyright notice, this list of conditions and the following
+ *   disclaimer in the documentation and/or other materials provided
+ *   with the distribution.
+ *
+ *   Neither the name of the Cisco Systems, Inc. nor the names of its
+ *   contributors may be used to endorse or promote products derived
+ *   from this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ * "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ * LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+ * FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+ * COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,
+ * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+ * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+ * OF THE POSSIBILITY OF SUCH DAMAGE.
+ *
+"""
+
+import sys
+import argparse
+sys.path.append("/usr/local/lib/python")
+
+try:
+    from sleuth import *
+except ImportError:
+    # If in source code directory
+    from sleuth_pkg import *
+    
+    
+def attach_iterators(source, args):
+    source = DNSLinkedFlowEnrichIterator(source)
+
+    if args.tls_sec:
+        source = DictStreamEnrichIterator(source, "tls_sec", enrich_tls,
+                                          policy_file=args.policy_file, unknowns=args.unknowns,
+                                          compliance=args.compliance, failure_threshold=args.failure_threshold)
+    
+    if args.fplist:
+        source = DictStreamEnrichIntoIterator(source, "inferences", tls_inference)
+
+    if args.filter:
+        source = DictStreamFilterIterator(source, SleuthPredicate(args.filter))
+
+    if not args.no_stitch:
+        source = FlowStitchIterator(source)
+    if args.selection:
+        source = DictStreamSelectIterator(source, args.selection)
+    if args.norm_keys:
+        source = DictStreamNormalizeIterator(source, args.norm_keys)
+
+    return source
+
+
+#
+# Main Processing Pipeline
+#
+def pipeline():
+    parser = argparse.ArgumentParser(
+        description='Interrogate JSON flow data and print out matching flows, selected fields, or stats.'
+    )
+    parser.add_argument("input", nargs='*', default=sys.stdin,
+                        help="Input (json or pcap) file(s).")
+    parser.add_argument("--select", dest="selection",
+                      help="Select key(s) to output.")
+    parser.add_argument("--where", dest="filter",
+                      help="Filter flows according to the provided key/value.")
+    parser.add_argument("--normalize", dest="norm_keys",
+                      help="Set values of selected key(s) to Null.")
+    parser.add_argument("--groupby", dest="group_keys",
+                        help='Split processing into separate pipelines, grouping by each ' +
+                             'unique value for the provided keys(s).')
+    parser.add_argument("--dist", dest='dist', action="store_true",
+                        help="Compute distribution of unique values for keys(s) specified in --select.")
+    parser.add_argument("--pretty", dest='pretty', action="store_true",
+                        help="Pretty-print JSON output.")
+    parser.add_argument("--no_stitch", dest='no_stitch', action="store_true",
+                        help="Turn off stitching together successive flows separated by active timeouts.")
+    parser.add_argument("--sum", dest="sumvars",
+                        help="Compute sum over selected element(s).")
+    parser.add_argument("--fingerprint", dest="fplist", action="store_true",
+                        help="Enrich with inferences about fingerprint(s).")
+    parser.add_argument("--tls_sec", dest='tls_sec', action="store_true",
+                        help="Report security level of TLS sessions.")
+    parser.add_argument("--sec_policy_file", dest='policy_file',
+                        default="res_tls_policy.json", help="File containing seclevel policy; default - res_tls_policy.json")
+    parser.add_argument("--sec_failure_threshold", dest='failure_threshold',
+                        default=None, help="Integer defining a custom failure reporting threshold. " +
+                                           "Adjust 'default_failure_threshold' value in the policy JSON file to specify default")
+    parser.add_argument("--sec_unknowns", dest='unknowns',
+                        choices=['report', 'ignore'], default="report",
+                        help="Report or ignore unknown ciphersuites, extensions, etc; defaults to report")
+    parser.add_argument("--sec_compliance", nargs="*", dest='compliance',
+                        help="List of policies to do a soft check for selected cipher suite compliance against. " +
+                             "I.e. 'fips_140' as defined in res_tls_compliance.json")
+
+    # Parse command line, and check arguments
+    args = parser.parse_args()
+
+    if args.pretty:
+        json_indent = 3
+    else:
+        json_indent = None
+
+    # Select flow processor
+    #
+    fp = DictStreamProcessor(indent=json_indent)
+
+    if args.group_keys:
+        fp = DictStreamGroupProcessor(fp, args.group_keys)
+
+    # Select post-processor
+    #
+    if args.dist:
+        postproc = DictStreamDistributionProcessor(indent=json_indent)
+    elif args.sumvars:
+        postproc = DictStreamSumProcessor(args.sumvars, indent=json_indent)
+    else:
+        postproc = DictStreamProcessor(indent=json_indent)
+
+    #
+    # Process all files, with pre- and post-processing
+    #
+    fp.pre_process()
+
+    if args.input == sys.stdin:
+        #
+        # Use standard input as source
+        #
+        flow_source = FlowIteratorFromFile(stdin=sys.stdin)
+
+        # Add iteration-behavior to transform flows
+        flow_source = attach_iterators(flow_source, args)
+
+        # Process all flows from source
+        try:
+            for flow in flow_source:
+                fp.main_process(flow)
+        except KeyboardInterrupt:
+            sys.exit()
+    else:
+        #
+        # Use files as source, looping over each
+        #
+        for x in args.input:
+            flow_source = FlowIteratorFromFile(file_name=x)
+
+            # Add iteration-behavior to transform flows
+            flow_source = attach_iterators(flow_source, args)
+
+            # Process all flows from source
+            try:
+                for flow in flow_source:
+                    fp.main_process(flow)
+            except KeyboardInterrupt:
+                sys.exit()
+
+    fp.post_process(postproc)
+
+
+"""
+Script entry point
+"""
+if __name__ == '__main__':
+    pipeline()
